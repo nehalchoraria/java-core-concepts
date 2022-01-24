@@ -1,0 +1,7 @@
+default:
+  course:
+    name: Docker
+
+course:
+  name: AWS
+  id: 1
