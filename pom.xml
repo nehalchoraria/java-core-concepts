@@ -82,6 +82,16 @@
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 
+
+		<!-- Provides predefined endpoints to monitor you app
+		Reference : https://www.baeldung.com/spring-boot-actuators
+		Can check default endpoint: http://localhost:8081/actuator
+		-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>

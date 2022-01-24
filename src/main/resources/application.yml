@@ -16,3 +16,12 @@ spring:
     enabled: true
     prefix: classpath:/templates/
     suffix: .html
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
