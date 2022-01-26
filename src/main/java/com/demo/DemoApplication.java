@@ -29,5 +29,4 @@ public class DemoApplication {
 				Integer::valueOf, Collectors.counting()
 		)) );
 	}
-
 }
